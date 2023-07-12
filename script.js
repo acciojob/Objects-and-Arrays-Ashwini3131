@@ -6,7 +6,9 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
-
+team = players
+team1 = players[:]
+cap1 = person.copy()
 window.players = players;
 window.person = person;
 window.team = team;
